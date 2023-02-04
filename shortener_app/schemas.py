@@ -9,7 +9,7 @@ class URL(URLBase):
     is_active: bool
     clicks: int
 
-    class config:
+    class Config:
         orm_mode = True
 
 
